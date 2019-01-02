@@ -1,0 +1,34 @@
+/* TREE TRAVERSAL - BST
+
+                                10
+                             6      15
+                          3    8        20
+-------------------
+Two main ways :
+1> BFS - Breadth first traversal - Across the nodes from top, and going left to right
+                                - [10,6,15,3,8,20]
+                                
+2> DFS - Depth first traversal - PreOrder - [10,6,3,8,15,20]
+                               - PostOrder- [3,8,6,20,15,10]
+                               - InOrder -  [3,6,8,10,15,20]
+
+
+---------------------------------------
+When to use BFS, when to use DFS???????
+---------------------------------------
+time complexity is same for both the traversal methods
+space complexity varies.
+BFS - wide tree
+DFS - deep tree
+
+
+-----------------------------------------------------------
+when to use DFS_inOrder vs DFS_preOrder vs DFS_postOrder???
+-----------------------------------------------------------
+DFS_preOrder -  o/p -> [10,6,3,8,15,20], good when making a copy of tree, with this
+                       preOrder o/p new copy of tree can be constrcuted easily
+                      
+DFS_inOrder - o/p - > [3,6,8,10,15,20] ,  good when data in tree is needed to be arranged in order.
+
+
+*/

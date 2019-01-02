@@ -1,0 +1,32 @@
+/*
+Graphs
+---------
+Graph is a collection of nodes and connection between them.
+uses:
+-----1> socila network
+     2> Maps/locations
+     3> Routing algo
+     4> everywhere :P
+
+
+In mathematics, and, more specifically, in graph theory, 
+a TREE is an undirected GRAPH in which any two vertices are 
+connected by exactly one path. Every acyclic connected graph is a tree, 
+and vice versa.
+
+In short - trees are special graph(undirected graph) in which nodes are connected
+in such a way that there is only one path from a node to a given node 
+
+
+Types of Graphs
+----------------
+1> Directed graph - edges have a polarity, represented by arrows
+                  - ex - Instagram followers model
+2> Undirected graph - edges dont have a polarity
+                    - facebook friends
+3> Weighted graph - edges have a value associated with them(info about the connection)
+4> Unweighted graph - edges with no vlaues
+5> Directed weighted graph - ex -one way roads in google maps
+6> Udirected weighted grpah - ex- two way roads in google maps
+
+*/

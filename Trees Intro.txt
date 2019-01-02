@@ -1,0 +1,39 @@
+/* a Tree is a data structure that consisit of nodes
+in parent-child relationship.
+
+Lists - Linear
+Trees - non-linear
+
+------------------
+Terminologies
+------------------
+1> root - top node of the tree.
+2> child - a node connected to another node when
+    moving away from the tree.
+3> parent - converse notion of child
+4> siblings - a group of nodes having same parent
+5> leaf  - a node with no children
+6> edge - a connection between two nodes(arrow)
+
+------------------
+applications
+------------------
+-> HTML DOM 
+-> network routing
+-> AI
+-> file Structure
+-> abstract syntax tree
+-> JSON
+
+------------------
+types of trees
+------------------
+-> Trees - non-linear data structure that contains a root with child nodes
+-> Binary trees - Trees in which each node can have at max 2 child(binary)
+-> Binary search trees - special case of binary tree, 
+                       - sorted in a particular order
+                       - parentNode > all nodes to left of it
+                       - parentNode < all nodes to right of it
+
+
+*/

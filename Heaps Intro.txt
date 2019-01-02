@@ -1,0 +1,17 @@
+/*
+Heaps are treee with some special feature additions.
+Binary Heap - 1> Max Binary Heap
+            - 2> Min Binary Heap
+
+Binary Heap is similar to Binary Search Tree but with
+some different rules.
+Parent node can have atmost two child.(Binary heap).
+There is no relation betweeen Sibling nodes.
+ 
+ USES : -Binary Heap are commonly used to implement Priority Queue
+        -Also used quite a bit in Graph Traversal
+
+MaxBinaryHeap - parent node is always greater than its child nodes
+MinBinaryHeap - parent node is always less than its child nodes       
+
+*/
